@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 1240081701}
   - component: {fileID: 1240081700}
   - component: {fileID: 1240081702}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1257,7 +1257,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &1866964960
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1305,6 +1305,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556270613e0c255478337884e0b2eb48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpForce: 0
+  moveSpeed: 4
+  groundCheckLength: 0.68
+  showGroundCheck: 0
+  colorGroundCheck: {r: 0.9433962, g: 0.9313025, b: 0.048949808, a: 1}
+  isGround: 0
 --- !u!1 &1898449480
 GameObject:
   m_ObjectHideFlags: 0
